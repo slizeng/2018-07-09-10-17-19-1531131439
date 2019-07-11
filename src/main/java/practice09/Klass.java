@@ -29,7 +29,7 @@ public class Klass {
         if (nonNull(members.get(leader.getId()))) {
             this.leader = leader;
         } else {
-            System.out.println("It is not one of us.");
+            System.out.print("It is not one of us.\n");
         }
     }
 
